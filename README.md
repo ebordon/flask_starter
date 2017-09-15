@@ -10,5 +10,24 @@ Small application to starting a Flask project. This repo is based on [scotch.io 
 
 ## Instalation
 
+```
+git clone https://github.com/ebordon/flask_starter.git
+cd flask_starter
+pip install $(cat requirements.txt)
+```
 
 ## Run
+
+### Linux
+
+```
+export FLASK_APP=run.py
+flask run
+```
+
+### Windows
+
+```
+set FLASK_APP=run.py
+flask run
+```
